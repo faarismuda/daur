@@ -12,14 +12,24 @@ export default {
     screens: {
       Root: {
         screens: {
-          TabOne: {
+          Home: {
             screens: {
               TabOneScreen: 'one',
             },
           },
-          TabTwo: {
+          Wishlist: {
             screens: {
               TabTwoScreen: 'two',
+            },
+          },
+          Transaction: {
+            screens: {
+              TabThreeScreen: 'three',
+            },
+          },
+          Profile: {
+            screens: {
+              TabFourScreen: 'four',
             },
           },
         },
